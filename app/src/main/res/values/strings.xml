@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Pet App</string>
+    <string name="heading3">This app will prepare a details page based on input provide by you !</string>
+</resources>

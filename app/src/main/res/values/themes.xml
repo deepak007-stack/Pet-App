@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.PetApp" parent="android:Theme.Material.Light.NoActionBar" />
+
+    <style name="SplashScreenTheme" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/primary</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/pen</item>
+        <item name="postSplashScreenTheme">@style/Theme.PetApp</item>
+        <item name="windowSplashScreenAnimationDuration">500</item>
+    </style>
+</resources>
